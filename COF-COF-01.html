@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Product Details | coffee - light roast</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/price-range.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+
+    <script type="text/javascript" src="https://cdn.snipcart.com/scripts/snipcart.js" id="snipcart"
+            data-api-key="ZjUzMmUzOTktMDBkZS00NDQ2LWI4YzktMGZlYjI1NWU2MWY3NjM1OTA3NDU5NDY4NjEyMDkx"></script>
+    <link type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" rel="stylesheet"/>
+</head>
+
+<body>
+<header id="header">
+    <div class="header_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="contactinfo">
+                        <ul class="nav nav-pills">
+                            <li><a href=""><i class="fa fa-phone"></i> 5109842558 </a></li>
+                            <li><a href=""><i class="fa fa-envelope"></i> jyodey@gmail.com </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="social-icons pull-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="logo pull-left">
+                        <a href="index.html"><img src="images/home/logo.png" alt=""/></a>
+                    </div>
+                    <div class="btn-group pull-right">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                USA
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="">Canada</a></li>
+                                <li><a href="">UK</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                DOLLAR
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="">Canadian Dollar</a></li>
+                                <li><a href="">Pound</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="header-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="mainmenu pull-left">
+                        <ul class="nav navbar-nav collapse navbar-collapse">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Blog</i></a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="search_box pull-right">
+                        
+                        <input type="text" id="search_box" placeholder="Search">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul id="search_results"></ul>
+</header>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="left-sidebar">
+                    <h2>Category</h2>
+                    <div class="panel-group category-products" id="accordian">
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="index.html">All</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/Sale.html">Sale</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/almond.html">almond</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/bakedgoods.html">bakedgoods</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/breakfast.html">breakfast</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/chocolate.html">chocolate</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/coffee.html">coffee</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/glutenfree.html">glutenfree</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/kona.html">kona</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/nofat.html">nofat</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/test.html">test</a></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a href="collections/test2.html">test2</a></h4>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-9 padding-right">
+                <div class="product-details">
+                    <div class="col-sm-5">
+                        <div class="view-product">
+                            <img src="https://drive.google.com/uc?id=0B_-cmQjRNuGVWGRldXR1bTdpZms"
+                                 alt="coffee - light roast"/>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="product-information">
+                            <h2>coffee - light roast</h2>
+                            <p>Web ID: COF-COF-01</p>
+                            <span>
+									<span>US $15.99</span>
+                                
+									<button
+                                            type="button"
+                                            class="btn btn-fefault snipcart-add-item cart"
+                                            data-item-id="123456789113"
+                                            data-item-name="coffee - light roast"
+                                            data-item-price="15.99"
+                                            data-item-weight=""
+                                            data-item-url="/"
+                                            data-item-description="1lb. light roast kona blend, whole beans">
+										<i class="fa fa-shopping-cart"></i>
+										Add to cart
+									</button>
+								</span>
+                            <p><b>Availability:</b> In Stock</p>
+                            
+                            <p>1lb. light roast kona blend, whole beans</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="snipcart-summary">
+                    Number of items: <span class="snipcart-total-items"></span>
+                    Total price: <span class="snipcart-total-price"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="companyinfo">
+                        <h2><span>e</span>-shopper</h2>
+                        <p>Blah!</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="address">
+                        <img src="images/home/map.png" alt="">
+                        <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <p class="pull-left">Copyright © 2016 Recoshin Inc. All rights reserved.</p>
+                <p class="pull-right">Designed by <span><a target="_blank"
+                                                           href="http://recoshin.com/">Recoshin</a></span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/0.7.0/lunr.min.js"></script>
+<script type="text/javascript">
+	jQuery(function() {
+  
+  window.idx = lunr(function () {
+    this.field('Id');
+    this.field('Title');
+    this.field('Content', { boost: 10 });
+    this.field('Href');
+  });
+
+  
+  window.data = $.getJSON('./data.json');
+
+  
+  window.data.then(function(loaded_data){
+    $.each(loaded_data, function(index, value){
+      window.idx.add(
+        $.extend({ "id": index }, value)
+      );
+    });
+  });
+
+  
+  $("#site_search").submit(function(event){
+      event.preventDefault();
+      var query = $("#search_box").val(); 
+      var results = window.idx.search(query); 
+      display_search_results(results); 
+  });
+
+$("#search_box").on('keyup', function () {
+            
+            var query = $(this).val();
+                console.log("query searched : "+$(this).val());
+            
+            var results = window.idx.search(query);
+            
+            var $search_results = $("#search_results");
+            window.data.then(function(loaded_data) {
+                                      if (results.length) {
+                                        $search_results.empty();
+                                        results.forEach(function(result) {
+                                          var item = loaded_data[result.ref];
+                                          var appendString = '<ul><a href="' + item.Href + '">' + item.Title + '</a></ul>';
+                                          $search_results.append(appendString);
+                                        });
+                                      } else {
+                                        $search_results.html('<li>No results found.<br/>Please check spelling, spacing, yada...</li>');
+                                      }
+                                    });
+        });
+});
+
+</script>
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+        ga('create', '-------------XYZ-----------', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>
